@@ -147,5 +147,3 @@ Thumbs.db
 Este proyecto se distribuye bajo **LICENCIA** incluida (revisa `LICENSE`).
 
 ---
-
-¿Necesitas que te genere también un `.gitignore` listo para descargar? Puedo anexarlo.
