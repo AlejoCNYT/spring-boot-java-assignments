@@ -1,0 +1,50 @@
+# === Java / Spring Boot (Gradle) ===
+
+# Build outputs
+/build/
+/out/
+/target/
+
+# Gradle
+.gradle/
+# Wrapper (KEEP these files tracked)
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Logs & temp
+*.log
+logs/
+tmp/
+*.tmp
+hs_err_pid*
+
+# Coverage / reports
+*.exec
+*.ec
+*.coverage
+
+# IDEs
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse / STS
+.project
+.classpath
+.settings/
+.springBeans
+
+# VS Code
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Env / config (si usas perfiles locales)
+*.env
+.env
+*.local.properties
+application-local.properties
