@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:econexion;DB_CLOSE_DELAY=-1;MODE=PostgreSQL
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ""
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+
+server:
+  port: 8080
+
+app:
+  jwt:
+    secret: "b020a1b7b7f84d6fa2c8f3e8c9a0c6b2b020a1b7b7f84d6fa2c8f3e8c9a0c6b2"
+    expirationSeconds: 604800
